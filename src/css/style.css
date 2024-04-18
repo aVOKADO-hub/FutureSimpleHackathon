@@ -1,13 +1,23 @@
-.main{
-    background-image: url(/src/img/фон.svg);
-    height: 100vh;
+@font-face {
+    font-family: AngryFont;
+    src: url(/src/fonts/Angry/Web-PS/Angry.woff2);
 }
-.main > header > div{
+@font-face {
+    font-family: IdealisticSansLight;
+    src: url(/src/fonts/IdealisticSansLight/idealist-sans.light.ttf);
+}
+#main{
+    background-image: url(/src/img/background1.svg);
+    background-size: cover;
+    height: 130vh;
+}
+#main > header > div{
     display: inline-block;
 }
 header{
-    padding-top: 20px;
+    font-family: IdealisticSansLight;
     font-size: 18px;
+    padding-top: 20px;
 }
 .btn{
     font-size: 18px;
@@ -25,16 +35,19 @@ header{
     border-radius: 15px;
 }
 .main_text{
-    margin-top: 300px;
+    margin-top: 220px;
     h1{
+        font-family: AngryFont;
         font-size: 64px;
         font-weight: 400px;
     }
     p{
+        font-family: IdealisticSansLight;
         margin-top: 20px;
         font-size: 20px;
     }
     button{
+        font-family: IdealisticSansLight;
         border: none;
         border-radius: 25px;
         background-color: #173373A6;
@@ -43,5 +56,219 @@ header{
         height: 40px;
         width: 250px;
     }
+}
+#about_us{
+    background-image:url(/src/img/background2.svg);
+    background-size:cover;
+    height: 100vh;
+}
+.about_us_header{
+    width: 700px;
+    h2{
+        font-family: AngryFont;
+        font-size: 50px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: IdealisticSansLight;
+        font-size: 20px;
+    }
+}
+.features{
+    margin-top: 100px;
+    text-align: center;
+}
+.features_img{
+    height: 172px;
+    width: 172px;
+}
+.features_header{
+    font-family: AngryFont;
+    font-size: 25px;
+    font-weight: 400;
+    height: 56px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.features_sub_header{
+    font-family: IdealisticSansLight;
+    font-size: 20px;
+}
+#level{
+    background-image:url(/src/img/background3.svg);
+    background-size:cover;
+    height: 110vh;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.level_header{
+    margin-top: 100px;
+    h2{
+        font-family: AngryFont;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    p{
+        font-family: IdealisticSansLight;
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+#level_separations{
+    div{
+        display: inline-block;
+    }
+}
+#level_starter{
+    position: relative;
+    left: 460px;
+    top: 100px;
+    p{
+        transform: translateX(10px);
+    }
+    
+}
+#level_middle{
+    position: relative;
+    left: 260px;
+    top: 190px;
+    p{
+        transform: translateX(25px);
+    }
+}
+#level_high{
+    position: relative;
+    left: 535px;
+    top: 250px;
+    p{
+        transform: translateX(30px);
+    }
+}
+#level_experienced{
+    position: relative;
+    left: 1805px;
+    bottom: 380px;
+    p{
+        transform: translateX(10px);
+    }
+}
+#level_native{
+    position: relative;
+    left: 1550px;
+    bottom: 930px;
+    p{
+        transform: translateX(45px);
+    }
+}
+.level_link{
+    text-decoration: none;
+    color:black;
+}
+.level_img{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: border-color 1s;
+}
+.level_img:hover{
+    box-shadow:0px 0px 20px #173373A6;
+    border-color:#173373A6;
+}
+.level_text{
+    font-family: IdealisticSansLight;
+    font-size: 25px;
+    font-weight: 400;
+}
+.test{
+    background-image:url(/src/img/background4.svg);
+    background-size:cover;
+    height: 100vh;
+    h2{
+        font-family: AngryFont;
+        font-size: 50px;
+        font-weight: 400;
+        margin-top: 100px;
+    }
+    p{
+        font-family: IdealisticSansLight;
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+.choose_language{
+    background-image:url(/src/img/background4.5.svg);
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+    button{
+        font-family: IdealisticSansLight;
+        border: none;
+        border-radius: 25px;
+        background-color: #173373A6;
+        color:#fff;
+        font-size: 32px;
+        height: 80px;
+        width: 480px;
+        margin-top: 30%;
+    }
+}
+.device{
+    background-image:url(/src/img/background5.svg);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 20px;
+    
+}
+#device_text{
+    margin-top: 40vh;
+    h2{
+        font-family: AngryFont;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    p{
+        font-family: IdealisticSansLight;
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+.device_btn{
+    background-color: #173373A6;
+    border:none;
+    border-radius:25px;
+    color:white;
+    height: 100px;
+    width: 270px;
+    margin-right: 20px;
+    line-height: 1.0px;
+    text-align:right;
+    padding: 20px 20px 5px 20px;
+    h3{
+        font-family: IdealisticSansLight;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    img{
+        display: inline-block;
+    }
+}
+.device_btn_text{
+   font-family: IdealisticSansLight;
+   font-size: 15px;
+}
+.device_icon{
+    position: absolute;
+}
+.footer{
+    height: 20vh;
+}
+.footer_text{
+    padding-top: 100px;
+}
+.footer_text>span{
+    font-family: IdealisticSansLight;
+    font-size: 20px;
+    font-weight: 400;
+    
 }
 

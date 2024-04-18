@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
-    <section class="main">
+    <section id="main">
         <div class="container">
             <header class="header">
                 <div class="row align-items-center">
@@ -18,9 +18,9 @@
                       </div>
                     </div>
                     <div class="col-xl-3 offset-xl-3">
-                      <a class="header_link" href="#">Головна</a>
-                      <a class="header_link" href="#">Про нас</a>
-                      <a class="header_link" href="#">Курси</a>
+                      <a class="header_link" href="#main">Головна</a>
+                      <a class="header_link" href="#about_us">Про нас</a>
+                      <a class="header_link" href="#level">Курси</a>
                     </div>  
                     <div class="col-xl-2 offset-xl-2">
                       <button class="btn">Sign up</button>
@@ -30,7 +30,7 @@
             </header>
             <div class="main_text">
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-7">
                         <h1>FUTURE SIMPLE
                             HACK - ВИВЧЕННЯ
                             АНГЛІЙСЬКОЇ МОВИ</h1>
@@ -40,6 +40,143 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="about_us">
+        <div class="container">
+            <div class="about_us_header">
+                <h2>МИ НАЙКРАЩІ У СВОЇЙ СПРАВІ</h2>
+                <p>Вивчаючи англійську разом з нами, ви отримаєте</p>
+            </div>
+            <div class="features ">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <img class="features_img" src="/src/img/group1.svg" alt="">
+                        <p class="features_header">Уроки та завдання</p>
+                        <p class="features_sub_header">Покрокові уроки, вправи та зручний доступ до навчальних матеріалів</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <img class="features_img" src="/src/img/group2.svg" alt="">
+                        <p class="features_header">Відстеження прогресу</p>
+                        <p class="features_sub_header">Слідкуйте за своїм навчанням та вдосконалюйте навички разом із нашим додатком</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <img class="features_img" src="/src/img/group3.svg" alt="">
+                        <p class="features_header">Зручний<br>графік</p>
+                        <p class="features_sub_header">Навчайтесь в будь-який зручний для вас час та місці, яке вам підходить</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <img class="features_img" src="/src/img/group4.svg" alt="">
+                        <p class="features_header">Чат<br>асистент</p>
+                        <p class="features_sub_header">Спілкуйтеся у чаті для закріплення вивченого матеріалу</p>
+                    </div>
+                </div>       
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="level">
+        <div class="container">
+            <div class="row">
+                <div class="level_header">
+                    <h2>Обери свій рівень</h2>
+                    <p>Вивчаючи англійську</p>
+                </div>
+            </div>
+        </div>
+        <div class="level_separations">
+            <div id="level_starter">
+                <a class="level_link" href="#">
+                    <img class="level_img" src="/src/img/starter.svg" alt="">
+                    <p class="level_text">Початківець</p>
+                </a>
+            </div>
+            <div id="level_middle">
+                <a class="level_link" href="#">
+                    <img class="level_img" src="/src/img/middle.svg" alt="">
+                    <p class="level_text">Середній</p>
+                </a>
+            </div>
+            <div id="level_high">
+                <a class="level_link" href="#">
+                    <img class="level_img" src="/src/img/high.svg" alt="">
+                    <p class="level_text">Високий</p>
+                </a>
+            </div>
+            <div id="level_experienced">
+                <a class="level_link" href="#">
+                    <img class="level_img" src="/src/img/experienced.svg" alt="">
+                    <p class="level_text">Досвідчений</p>
+                </a>
+            </div>
+            <div id="level_native">
+                <a class="level_link" href="#">
+                    <img class="level_img" src="/src/img/native.svg" alt="">
+                    <p class="level_text">Носій</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="test">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7">
+                    <h2>Дізнайся свій рівень мови</h2>
+                    <p>Сумніваєшся у своєму рівні й не знаєш із чого почати?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-10 offset-xl-2">
+                    <div class="choose_language">
+                        <div>
+                            <button>Пройти тест</button>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="device">
+        <div class="container">
+            <div class="row">
+                <div id="device_text"class="col-xl-6 offset-xl-1"> 
+                    <h2>Завжди під рукою</h2>
+                    <p>З будь-якого пристрою будь-коли. Доступні веб-версія, додаток ios, розширення для браузерів, версії для планшетів</p>
+                    <div>
+                        <button class="device_btn">
+                            <div class="device_icon">
+                                <img src="/src/img/apple.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="device_btn_text">Завантажити з</p>
+                                <h3>App Store</h3> 
+                            </div>
+                        </button>
+                        <button class="device_btn">
+                            <div class="device_icon">
+                                <img src="/src/img/triangle.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="device_btn_text">Завантажити з</p>
+                                <h3>Google Play</h3>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 offset-xl-4">
+                        <div class="footer_text">
+                            <span>2024 © All rights reserved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </section>
 </body>
 </html>
